@@ -18,6 +18,10 @@ import { RouterLink, RouterView } from 'vue-router'
 </template>
 
 <style scoped>
+nav{
+  margin-bottom: 2em;
+}
+
 ul{
   display: flex;
   flex-direction: row;
@@ -34,5 +38,13 @@ li{
 
 li a{
   text-decoration: none;
+  color: #374151;
+  padding: 1em;
+  transition: all .5s ease;
+}
+
+a:hover{
+  background: #374151;
+  color: #f3f4f6;
 }
 </style>
