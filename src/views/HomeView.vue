@@ -1,11 +1,24 @@
 <script>
 import Footer from '@/components/Footer.vue';
-export default{
-    components:{
+import hljs from 'highlight.js';
+import 'highlight.js/styles/default.css'; // Puedes cambiar a otro tema si prefieres
+
+import { onMounted } from 'vue';
+
+export default {
+    components: {
         Footer
+    },
+    setup() {
+        onMounted(() => {
+            document.querySelectorAll('pre code').forEach((block) => {
+                hljs.highlightBlock(block);
+            });
+        });
     }
-}
+};
 </script>
+
 <template>
     <header class="container">
         <h1>Test Unitarios en Vue con Vitest</h1>
@@ -61,12 +74,13 @@ export default{
             expect(wrapper.text()).toContain('Hola, Vitest!');
         });
     });
-            </code>
-        </pre>
+                </code>
+            </pre>
         </section>
     </main>
     <Footer />
 </template>
+
 <style scoped>
 p{
     max-width: 600px;
