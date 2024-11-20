@@ -10,3 +10,62 @@ h1{
   text-align: center;
   font-weight: 600;
 }
+
+h2{
+  text-align: center;
+  font-weight: 500;
+}
+
+.container{
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+h3{
+  text-align:left;
+  font-weight: 500;
+  
+}
+
+input{
+  width: 100%;
+  height: 40px;
+  border: 2px solid #33332d;
+  box-shadow: -3px 5px #33332d;
+  padding: 0.5em;
+  font-weight: 18px;
+  font-size: 18px;
+}
+
+textarea{
+  width: 100%;
+  height: 80px;
+  border: 2px solid #33332d;
+  box-shadow: -3px 5px #33332d;
+  padding: 0.5em;
+  font-weight: 18px;
+  font-size: 18px;
+}
+
+button{
+  padding: 1em;
+  border: 2px solid #33332d;
+  color: #33332d;
+  font-weight: 600;
+  font-size: 18px;
+  box-shadow: -3px 5px #33332d;
+  transition: all .7s ease;
+}
+
+button:hover{
+  background-color: #33332d;
+  color: #fff;
+}
+
+footer{
+  margin: 2em 0;
+  text-align: center;
+}

@@ -1,28 +1,35 @@
+<script>
+import About from '@/components/About.vue';
+import Footer from '@/components/Footer.vue';
+export default{
+  components:{
+    About, 
+    Footer
+  }
+}
+</script>
 <template>
   <div>
-    <h1>About Page</h1>
+    <header class="container">
+        <h1>Acerca de Vue y Vitest</h1>
+        <p>Descubre cómo Vue y Vitest trabajan juntos para facilitar 
+          el desarrollo y las pruebas de tus aplicaciones web.
+        </p>
+    </header>
+    <About/>
   </div>
-  <section>
-    <article>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing 
-        elit. Eligendi libero voluptatibus commodi eaque, 
-        ut reprehenderit sit expedita debitis itaque harum 
-        voluptatem eum sequi aperiam nostrum beatae in, 
-        possimus molestias iure aspernatur officia deserunt 
-        distinctio doloribus ea? Illo velit nam mollitia 
-        vero? Eius et nemo architecto ipsum iusto quidem 
-        culpa, fugiat inventore magnam neque, debitis 
-        eveniet, quis eum consequuntur in! Quo ad mollitia 
-        veniam alias!
-        consectetur.</p>
-    </article>
-  </section>
+  <Footer/>
 </template>
-
 <style scoped>
-  p{
-    text-align: center;
-    margin-top: 2em;
-    max-width: 600px;
-  }
+header{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2em;
+}
+
+p{
+  max-width: 600px;
+}
 </style>

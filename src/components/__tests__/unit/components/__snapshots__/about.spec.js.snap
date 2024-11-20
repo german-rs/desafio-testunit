@@ -1,0 +1,109 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`About.vue > Debe coincidir con el snapshot 1`] = `
+"<div data-v-d4948df9="">
+  <header data-v-d4948df9="" class="container">
+    <h1 data-v-d4948df9="">Acerca de Vue y Vitest</h1>
+    <p data-v-d4948df9="">Descubre cómo Vue y Vitest trabajan juntos para facilitar el desarrollo y las pruebas de tus aplicaciones web. </p>
+  </header>
+  <main data-v-161b4f7e="" data-v-d4948df9="" class="container">
+    <section data-v-161b4f7e="">
+      <h2 data-v-161b4f7e="">¿Qué es Vue?</h2>
+      <p data-v-161b4f7e="">Vue.js es un framework progresivo de JavaScript para construir interfaces de usuario. Su enfoque en la simplicidad y flexibilidad lo hace ideal tanto para pequeños proyectos como para aplicaciones complejas. </p><img src="https://via.placeholder.com/400x200" alt="Framework Vue.js" data-v-161b4f7e="">
+    </section>
+    <section data-v-161b4f7e="">
+      <h2 data-v-161b4f7e="">¿Qué es Vitest?</h2>
+      <p data-v-161b4f7e="">Vitest es un framework moderno para pruebas, optimizado para proyectos que utilizan Vite. Ofrece un entorno rápido, sencillo de configurar y con excelentes capacidades para pruebas unitarias y de integración.</p><img src="https://via.placeholder.com/400x200" alt="Herramienta Vitest" data-v-161b4f7e="">
+    </section>
+    <section data-v-161b4f7e="">
+      <h2 data-v-161b4f7e="">¿Por qué usar Vue y Vitest juntos?</h2>
+      <div class="div-box" data-v-161b4f7e="">
+        <div data-v-161b4f7e="">
+          <h3 data-v-161b4f7e="">Velocidad <span data-v-161b4f7e="">⚡</span></h3>
+          <p data-v-161b4f7e="">Vitest aprovecha las características de Vite, ofreciendo una experiencia de prueba ultrarrápida.</p>
+        </div>
+        <div data-v-161b4f7e="">
+          <h3 data-v-161b4f7e="">Compatibilidad <span data-v-161b4f7e="">🔧</span></h3>
+          <p data-v-161b4f7e="">Vitest incluye herramientas específicas para trabajar con componentes Vue sin complicaciones.</p>
+        </div>
+        <div data-v-161b4f7e="">
+          <h3 data-v-161b4f7e="">Ecosistema <span data-v-161b4f7e="">📦</span></h3>
+          <p data-v-161b4f7e="">Ambos forman parte de un ecosistema de desarrollo moderno, optimizado para desarrolladores actuales.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+</div>"
+`;
+
+exports[`About.vue > debe coincidir con el snapshot 1`] = `
+"<div data-v-d4948df9="">
+  <header data-v-d4948df9="" class="container">
+    <h1 data-v-d4948df9="">Acerca de Vue y Vitest</h1>
+    <p data-v-d4948df9="">Descubre cómo Vue y Vitest trabajan juntos para facilitar el desarrollo y las pruebas de tus aplicaciones web. </p>
+  </header>
+  <main data-v-161b4f7e="" data-v-d4948df9="" class="container">
+    <section data-v-161b4f7e="">
+      <h2 data-v-161b4f7e="">¿Qué es Vue?</h2>
+      <p data-v-161b4f7e="">Vue.js es un framework progresivo de JavaScript para construir interfaces de usuario. Su enfoque en la simplicidad y flexibilidad lo hace ideal tanto para pequeños proyectos como para aplicaciones complejas. </p><img src="https://via.placeholder.com/400x200" alt="Framework Vue.js" data-v-161b4f7e="">
+    </section>
+    <section data-v-161b4f7e="">
+      <h2 data-v-161b4f7e="">¿Qué es Vitest?</h2>
+      <p data-v-161b4f7e="">Vitest es un framework moderno para pruebas, optimizado para proyectos que utilizan Vite. Ofrece un entorno rápido, sencillo de configurar y con excelentes capacidades para pruebas unitarias y de integración.</p><img src="https://via.placeholder.com/400x200" alt="Herramienta Vitest" data-v-161b4f7e="">
+    </section>
+    <section data-v-161b4f7e="">
+      <h2 data-v-161b4f7e="">¿Por qué usar Vue y Vitest juntos?</h2>
+      <div class="div-box" data-v-161b4f7e="">
+        <div data-v-161b4f7e="">
+          <h3 data-v-161b4f7e="">Velocidad <span data-v-161b4f7e="">⚡</span></h3>
+          <p data-v-161b4f7e="">Vitest aprovecha las características de Vite, ofreciendo una experiencia de prueba ultrarrápida.</p>
+        </div>
+        <div data-v-161b4f7e="">
+          <h3 data-v-161b4f7e="">Compatibilidad <span data-v-161b4f7e="">🔧</span></h3>
+          <p data-v-161b4f7e="">Vitest incluye herramientas específicas para trabajar con componentes Vue sin complicaciones.</p>
+        </div>
+        <div data-v-161b4f7e="">
+          <h3 data-v-161b4f7e="">Ecosistema <span data-v-161b4f7e="">📦</span></h3>
+          <p data-v-161b4f7e="">Ambos forman parte de un ecosistema de desarrollo moderno, optimizado para desarrolladores actuales.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+</div>"
+`;
+
+exports[`About.vue > should match the snapshot 1`] = `
+"<div data-v-d4948df9="">
+  <header data-v-d4948df9="" class="container">
+    <h1 data-v-d4948df9="">Acerca de Vue y Vitest</h1>
+    <p data-v-d4948df9="">Descubre cómo Vue y Vitest trabajan juntos para facilitar el desarrollo y las pruebas de tus aplicaciones web. </p>
+  </header>
+  <main data-v-161b4f7e="" data-v-d4948df9="" class="container">
+    <section data-v-161b4f7e="">
+      <h2 data-v-161b4f7e="">¿Qué es Vue?</h2>
+      <p data-v-161b4f7e="">Vue.js es un framework progresivo de JavaScript para construir interfaces de usuario. Su enfoque en la simplicidad y flexibilidad lo hace ideal tanto para pequeños proyectos como para aplicaciones complejas. </p><img src="https://via.placeholder.com/400x200" alt="Framework Vue.js" data-v-161b4f7e="">
+    </section>
+    <section data-v-161b4f7e="">
+      <h2 data-v-161b4f7e="">¿Qué es Vitest?</h2>
+      <p data-v-161b4f7e="">Vitest es un framework moderno para pruebas, optimizado para proyectos que utilizan Vite. Ofrece un entorno rápido, sencillo de configurar y con excelentes capacidades para pruebas unitarias y de integración.</p><img src="https://via.placeholder.com/400x200" alt="Herramienta Vitest" data-v-161b4f7e="">
+    </section>
+    <section data-v-161b4f7e="">
+      <h2 data-v-161b4f7e="">¿Por qué usar Vue y Vitest juntos?</h2>
+      <div class="div-box" data-v-161b4f7e="">
+        <div data-v-161b4f7e="">
+          <h3 data-v-161b4f7e="">Velocidad <span data-v-161b4f7e="">⚡</span></h3>
+          <p data-v-161b4f7e="">Vitest aprovecha las características de Vite, ofreciendo una experiencia de prueba ultrarrápida.</p>
+        </div>
+        <div data-v-161b4f7e="">
+          <h3 data-v-161b4f7e="">Compatibilidad <span data-v-161b4f7e="">🔧</span></h3>
+          <p data-v-161b4f7e="">Vitest incluye herramientas específicas para trabajar con componentes Vue sin complicaciones.</p>
+        </div>
+        <div data-v-161b4f7e="">
+          <h3 data-v-161b4f7e="">Ecosistema <span data-v-161b4f7e="">📦</span></h3>
+          <p data-v-161b4f7e="">Ambos forman parte de un ecosistema de desarrollo moderno, optimizado para desarrolladores actuales.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+</div>"
+`;
