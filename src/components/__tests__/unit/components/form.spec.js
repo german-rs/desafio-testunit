@@ -1,10 +1,4 @@
-/*
-
-  Nota: Estas pruebas no son parte 
-  del desafío solo se agregaron 
-  para reforzar el aprendizaje.
-
-*/  
+//Nota: Estas pruebas no son parte del desafío.
 
 import { mount } from '@vue/test-utils';
 import { describe, it, expect } from 'vitest';
