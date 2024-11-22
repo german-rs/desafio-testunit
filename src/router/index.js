@@ -33,7 +33,6 @@ const router = createRouter({
   routes
 })
 
-// Guardar global para cambiar el título de la página
 router.beforeEach((to, from, next) => {
   document.title = to.meta.title || 'Test unitarios con Vitest';
   next();

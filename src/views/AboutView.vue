@@ -8,6 +8,7 @@ export default{
   }
 }
 </script>
+
 <template>
   <div>
     <header class="container">
@@ -20,6 +21,7 @@ export default{
   </div>
   <Footer/>
 </template>
+
 <style scoped>
 header{
   display: flex;

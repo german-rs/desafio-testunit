@@ -18,7 +18,6 @@ export default {
                 this.showMessageError = false;
                 this.showMessageSuccess = true;
 
-                // Limpiar los campos del formulario
                 this.name = '';
                 this.email = '';
                 this.comment = '';

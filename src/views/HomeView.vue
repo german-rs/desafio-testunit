@@ -1,8 +1,7 @@
 <script>
 import Footer from '@/components/Footer.vue';
 import hljs from 'highlight.js';
-import 'highlight.js/styles/default.css'; // Puedes cambiar a otro tema si prefieres
-
+import 'highlight.js/styles/default.css';
 import { onMounted } from 'vue';
 
 export default {
