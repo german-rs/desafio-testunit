@@ -1,0 +1,49 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`HomeView.vue > debe crear un snapshot del componente 1`] = `
+"<header class="container" data-v-b4e148ca="">
+  <h1 data-v-b4e148ca="">Test Unitarios en Vue con Vitest</h1>
+  <p data-v-b4e148ca="">Aprende cómo mejorar la calidad de tu código probando tus componentes Vue con Vitest. </p><img src="https://via.placeholder.com/400x200" alt="Testing en Vue con Vitest" data-v-b4e148ca="">
+</header>
+<main class="container" data-v-b4e148ca="">
+  <section data-v-b4e148ca="">
+    <h2 data-v-b4e148ca="">¿Qué son los test unitarios?</h2>
+    <p data-v-b4e148ca="">Los test unitarios son pruebas que verifican el correcto funcionamiento de pequeñas unidades de código, como funciones o componentes individuales. En aplicaciones Vue, los test unitarios aseguran que los componentes se comporten de la manera esperada.</p>
+  </section>
+  <section data-v-b4e148ca="">
+    <h2 data-v-b4e148ca="">¿Por qué usar Vitest?</h2>
+    <div class="div-box" data-v-b4e148ca="">
+      <div data-v-b4e148ca="">
+        <h3 data-v-b4e148ca="">Rápido y eficiente</h3>
+        <p data-v-b4e148ca="">Vitest es una herramienta moderna diseñada para pruebas rápidas gracias a su compatibilidad con Vite. </p>
+      </div>
+      <div data-v-b4e148ca="">
+        <h3 data-v-b4e148ca="">Integración con Vue</h3>
+        <p data-v-b4e148ca="">Compatible con Vue 3 y proporciona utilidades específicas para trabajar con componentes Vue. </p>
+      </div>
+    </div>
+  </section>
+  <section class="my-5" data-v-b4e148ca="">
+    <h2 data-v-b4e148ca="">Ejemplo de test unitario</h2>
+    <p data-v-b4e148ca="">A continuación, un ejemplo básico de cómo escribir un test unitario para un componente Vue usando Vitest:</p><pre data-v-b4e148ca="">                <code class="language-javascript" data-v-b4e148ca="">
+    // MyComponent.test.js
+    import { mount } from '@vue/test-utils';
+    import { describe, it, expect } from 'vitest';
+    import MyComponent from './MyComponent.vue';
+
+    describe('MyComponent', () =&gt; {
+        it('renderiza correctamente el mensaje', () =&gt; {
+            const wrapper = mount(MyComponent, {
+                props: { mensaje: 'Hola, Vitest!' }
+            });
+            expect(wrapper.text()).toContain('Hola, Vitest!');
+        });
+    });
+                </code>
+            </pre>
+  </section>
+</main>
+<footer data-v-b4e148ca="">
+  <p>© 2024 Aprende Vue Testing</p>
+</footer>"
+`;
